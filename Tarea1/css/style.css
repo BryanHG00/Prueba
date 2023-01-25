@@ -1,0 +1,31 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    margin: 5px;
+    border-radius: 12%;
+}
+
+.menu a:hover{
+    background-color: black;
+    color: white;
+}
+
+.menu li{
+    
+    list-style: none;
+    padding: 10px;
+}
+
+.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
